@@ -1,4 +1,4 @@
-## Sync with Houdong about debugging
+## Sync with Houdong about debugging June 2017
 # 1. Initial cost function value is 5000, not reasonable. Debug the initial cost function.
 #    Reasonable value should be like 1*log(1/10) * 4 ~= 15. Resolved by multiply input matrix by 1/255.0
 # 2. Try 1 digit first
@@ -19,12 +19,12 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 def deepnn_orig(x, h, w):
   """deepnn builds the graph for a deep net for classifying digits.
   Args:
-    x: an input tensor with the dimensions (N_examples, 784), where 784 is the
-    number of pixels in a standard MNIST image.
+    x: an input tensor with the dimensions (N_examples, h*w), where h*w (e.g. 2400) is the
+    number of pixels in input image.
   Returns:
-    A tuple (y, keep_prob). y is a tensor of shape (N_examples, 10), with values
+    A tuple (y1, y2, y3, y4, keep_prob). y is a tensor of shape (N_examples, 10), with values
     equal to the logits of classifying the digit into one of 10 classes (the
-    digits 0-9). keep_prob is a scalar placeholder for the probability of
+    digits 0-9). There are 4 digits so we need 4 outputs. keep_prob is a scalar placeholder for the probability of
     dropout.
   """
   # Reshape to use within a convolutional neural net.
