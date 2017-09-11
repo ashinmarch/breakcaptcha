@@ -5,11 +5,9 @@ I constructed the 3 layers of conv-maxpooling combinations and 1 1024d fully con
 The accuracy is ~98%. The prediction is correct only if all 4 digits are predicted correctly.
 
 Usage:
-1. Train
-    python break_pycaptcha_4d.py -t train
-2. Evaluate
-    python break_pycaptcha_4d.py -t eval <NUM>
-    <NUM>: any integer from [0, 9999]
+1. Train: *python break_pycaptcha_4d.py -t train*
+2. Evaluate: *python break_pycaptcha_4d.py -t eval <NUM>*
+    <NUM>: any integer from [0, 9999]
 
 The captcha system: https://pypi.python.org/pypi/captcha/0.1.1
 Source: https://github.com/lepture/captcha
