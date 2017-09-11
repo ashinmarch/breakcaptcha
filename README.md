@@ -8,3 +8,6 @@ Usage:
 2. Evaluate
     python break_pycaptcha_4d.py -t eval <NUM>
     <NUM>: any integer from [0, 9999]
+
+The captcha system: https://pypi.python.org/pypi/captcha/0.1.1
+The source: https://github.com/lepture/captcha
