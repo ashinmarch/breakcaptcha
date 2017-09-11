@@ -11,3 +11,5 @@ Usage:
 The captcha system: https://pypi.python.org/pypi/captcha/0.1.1
 Source: https://github.com/lepture/captcha
 ![1234](https://cloud.githubusercontent.com/assets/290496/5213632/95e68768-764b-11e4-862f-d95a8f776cdd.png)
+
+![Training logs sample](https://github.com/ashinmarch/breakcaptcha/blob/master/TrainingLogs.jpg)
