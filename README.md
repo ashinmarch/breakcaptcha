@@ -12,5 +12,5 @@ Usage:
     <NUM>: any integer from [0, 9999]
 
 The captcha system: https://pypi.python.org/pypi/captcha/0.1.1
-The source: https://github.com/lepture/captcha
+Source: https://github.com/lepture/captcha
 ![1234](https://cloud.githubusercontent.com/assets/290496/5213632/95e68768-764b-11e4-862f-d95a8f776cdd.png)
